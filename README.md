@@ -1,4 +1,4 @@
-# System-migration-CPP
+# Student System Migration in C++
 
 This project is focused on migrating an existing student management system to a new platform using C++. The objective is to implement and extend the functionality of the current system to manage a roster of students within a specific course. The system is designed with two primary classes: `Student` and `Roster`.
 
