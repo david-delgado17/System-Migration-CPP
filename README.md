@@ -1,2 +1,15 @@
 # System-migration-CPP
-This is a C++ application designed to migrate and manage a university's student roster system, implementing core functionalities for handling student data, including adding, removing, and displaying records
+
+This project is focused on migrating an existing student management system to a new platform using C++. The objective is to implement and extend the functionality of the current system to manage a roster of students within a specific course. The system is designed with two primary classes: `Student` and `Roster`.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Technical Details](#technical-details)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
