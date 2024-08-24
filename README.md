@@ -89,7 +89,8 @@ The project consists of six source files:
 
 Include screenshots demonstrating the console output and program functionality.
 ![image](https://github.com/user-attachments/assets/276b717b-d76e-4739-bd5c-ec429e7399c7)
-![image](https://github.com/user-attachments/assets/b38ba791-4f82-4114-b20b-26774701cdb2)
+![image](https://github.com/user-attachments/assets/abcc0f9b-977a-4eab-b915-a9637302cfc9)
+
 
 
 
