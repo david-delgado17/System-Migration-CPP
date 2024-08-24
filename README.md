@@ -62,7 +62,7 @@ The application reads student data from a predefined array, parses it, and popul
     }
  R.printByDegreeProgram(SOFTWARE);
  R.remove("A3");
-R.printAll();
+ R.printAll();
 ```
 ### File Structure
 
