@@ -11,8 +11,6 @@ This project is focused on migrating an existing student management system to a 
 - [File Structure](#file-structure)
 - [Technical Details](#technical-details)
 - [Screenshots](#screenshots)
-- [Optimizations](#optimizations)
-- [Lessons Learned](#lessons-learned) 
 - [License](#license)
 
 ## Project Overview
@@ -65,7 +63,45 @@ The application reads student data from a predefined array, parses it, and popul
  R.printByDegreeProgram(SOFTWARE);
  R.remove("A3");
 R.printAll();
-R.remove("A3");
 ```
+### File Structure
+
+The project consists of six source files:
+
+- `degree.h` – Contains the `DegreeProgram` enumeration.
+- `student.h` and `student.cpp` – Define and implement the `Student` class.
+- `roster.h` and `roster.cpp` – Define and implement the `Roster` class.
+- `main.cpp` – Contains the `main` function and demonstrates the program’s functionality.
+  
+## Technical Details
+
+- **Language:** C++
+- **IDE:** Compatible with any C++ IDE
+- **Memory Management:** The `Roster` class implements a destructor to manage dynamic memory.
+
+### Key Concepts:
+- **Object-Oriented Design:** Encapsulation, inheritance, and polymorphism.
+- **Dynamic Memory Allocation:** Handling student data using pointers and arrays.
+- **Data Parsing:** Extracting and manipulating data from a structured format.
+
+## Screenshots
+
+Include screenshots demonstrating the console output and program functionality.
+![image](https://github.com/user-attachments/assets/3fbd40f1-11bc-43a6-aaae-6ee0bd7377fc)
+![image](https://github.com/user-attachments/assets/13e9c144-70c2-4e21-a808-c1e1fde1516b)
+
+## License
+
+MIT License
+
+Copyright (c) 2024 David Delgado
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
 
 
