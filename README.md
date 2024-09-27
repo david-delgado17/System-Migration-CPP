@@ -94,7 +94,6 @@ Include screenshots demonstrating the console output and program functionality.
 
 
 
-
 ## License
 
 MIT License
